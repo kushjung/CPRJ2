@@ -1,0 +1,145 @@
+
+body {
+    margin: 0px;
+    text-align: center;
+}
+
+.top-container {
+    background-color: wheat;
+    position: relative;
+    padding-top: 100px;
+    height: 100vh;
+    display: block;
+    overflow: hidden;
+}
+
+h1, h2 {
+    color: #00274C;
+}
+
+.playfair {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.top-container h1 {
+    font-size: 5rem;
+    display: inline;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.profpic {
+    height: 20em;
+    border-radius: 50%;
+    margin-top: 80px;
+}
+
+.aboutme-container{
+    height: 30vh;
+    overflow: hidden;
+    /*background-image: url(./images/monet.png); */
+    margin: 0px;
+    position: relative;
+    text-align: center;
+}
+
+.aboutme-container h2{
+    font-size: 2rem;
+}
+
+.cv-button {
+    height: 55px;
+    font-size: 35px;
+    border-radius: 20%;
+}
+
+a {
+    text-decoration: none;
+    color: #00274C;
+}
+
+.portfolio-page{
+    height: 80vh;
+    display: block;
+}
+
+.portfolio-page h2{
+    padding-bottom: 50px;
+}
+
+.contact-me {
+    height: 40vh;
+    position: relative;
+    display: block;
+}
+
+.contact-me p {
+    color: #00274C;
+    font-size: 2rem;
+}
+
+.btn {
+    background: #00274C;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: wheat;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.portfolio-page img {
+    height: 50vh;
+    width: 100%;
+}
+
+.portfolio-container {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 40vh;
+    gap: 4em;
+}
+
+.project {
+    flex: 1;
+    text-align: center;
+    max-width: 400px;
+}
+
+.project p {
+    color: #00274C;
+    font-size: 1.5rem;
+}
+
+.bottom-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.skills-parent{
+    height: 100vh;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: 0.5fr;
+    justify-content: center;
+    align-items: start;
+}
+
+.skills-section img {
+    height: 30vh;
+    padding: 0px;
+}
+
+.skills-section p {
+    display: block;
+    text-align: left;
+
+}
